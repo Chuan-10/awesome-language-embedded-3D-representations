@@ -17,7 +17,7 @@ The README template is borrowed from [MrNeRF/awesome-3D-gaussian-splatting](http
 
 **Authors**: Shuaifeng Zhi, Tristan Laidlow, Stefan Leutenegger, Andrew Davison
 
-**Resources:**   [📄 Paper](https://arxiv.org/abs/2103.15875.pdf) | [🌐 Project Page](https://shuaifengzhi.com/Semantic-NeRF/) | [💻 Code](https://github.com/Harry-Zhi/semantic_nerf/) | [📦 Data](https://www.dropbox.com/sh/9yu1elddll00sdl/AAC-rSJdLX0C6HhKXGKMOIija?dl=0) | [🎥 Video](https://youtu.be/FpShWO7LVbM)
+**Resources:**   [📄 Paper](https://arxiv.org/pdf/2103.15875.pdf) | [🌐 Project Page](https://shuaifengzhi.com/Semantic-NeRF/) | [💻 Code](https://github.com/Harry-Zhi/semantic_nerf/) | [📦 Data](https://www.dropbox.com/sh/9yu1elddll00sdl/AAC-rSJdLX0C6HhKXGKMOIija?dl=0) | [🎥 Video](https://youtu.be/FpShWO7LVbM)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -30,7 +30,7 @@ Semantic labelling is highly correlated with geometry and radiance reconstructio
 
 **Authors**: Sosuke Kobayashi, Eiichi Matsumoto, Vincent Sitzmann
 
-**Resources:** [📄 Paper](https://arxiv.org/abs/2205.15585.pdf) | [🌐 Project Page](https://pfnet-research.github.io/distilled-feature-fields/) | [💻 Code](https://github.com/pfnet-research/distilled-feature-fields)
+**Resources:** [📄 Paper](https://arxiv.org/pdf/2205.15585.pdf) | [🌐 Project Page](https://pfnet-research.github.io/distilled-feature-fields/) | [💻 Code](https://github.com/pfnet-research/distilled-feature-fields)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -42,7 +42,7 @@ Emerging neural radiance fields (NeRF) are a promising scene representation for 
 
 **Authors**: Vadim Tschernezki, Iro Laina, Diane Larlus, Andrea Vedaldi
 
-**Resources:**   [📄 Paper](https://arxiv.org/abs/2209.03494.pdf) | [🌐 Project Page](https://www.robots.ox.ac.uk/~vadim/n3f/) | [💻 Code](https://github.com/dichotomies/N3F)
+**Resources:**   [📄 Paper](https://arxiv.org/pdf/2209.03494.pdf) | [🌐 Project Page](https://www.robots.ox.ac.uk/~vadim/n3f/) | [💻 Code](https://github.com/dichotomies/N3F)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -54,7 +54,7 @@ We present Neural Feature Fusion Fields (N3F), a method that improves dense 2D i
 
 **Authors**: Yawar Siddiqui, Lorenzo Porzi, Samuel Rota Buló, Norman Müller, Matthias Nießner, Angela Dai, Peter Kontschieder
 
-**Resources:**   [📄 Paper](https://arxiv.org/abs/2212.09802.pdf) | [🌐 Project Page](https://nihalsid.github.io/panoptic-lifting/) | [💻 Code](https://github.com/nihalsid/panoptic-lifting) | [🎥 Video](https://youtu.be/QtsiL-6rSuM)
+**Resources:**   [📄 Paper](https://arxiv.org/pdf/2212.09802.pdf) | [🌐 Project Page](https://nihalsid.github.io/panoptic-lifting/) | [💻 Code](https://github.com/nihalsid/panoptic-lifting) | [🎥 Video](https://youtu.be/QtsiL-6rSuM)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -67,7 +67,7 @@ We propose Panoptic Lifting, a novel approach for learning panoptic 3D volumetri
 
 **Authors**: Xiaoshuai Zhang, Abhijit Kundu, Thomas Funkhouser, Leonidas Guibas, Hao Su, Kyle Genova
 
-**Resources:**   [📄 Paper](https://arxiv.org/abs/2303.03361.pdf)
+**Resources:**   [📄 Paper](https://arxiv.org/pdf/2303.03361.pdf)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -80,7 +80,7 @@ We address efficient and structure-aware 3D scene representation from images. Ne
 
 **Authors**: Justin Kerr\*, Chung Min Kim\*, Ken Goldberg, Angjoo Kanazawa, Matthew Tancik
 
-**Resources:** [📄 Paper](https://arxiv.org/abs/2303.09553.pdf) | [🌐 Project Page](https://www.lerf.io/) | [💻 Code](https://github.com/kerrj/lerf) | [📦 Data](https://drive.google.com/drive/folders/1vh0mSl7v29yaGsxleadcj-LCZOE_WEWB?usp=sharing)
+**Resources:** [📄 Paper](https://arxiv.org/pdf/2303.09553.pdf) | [🌐 Project Page](https://www.lerf.io/) | [💻 Code](https://github.com/kerrj/lerf) | [📦 Data](https://drive.google.com/drive/folders/1vh0mSl7v29yaGsxleadcj-LCZOE_WEWB?usp=sharing)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -92,7 +92,7 @@ Humans describe the physical world using natural language to refer to specific 3
 
 **Authors**: Jianglong Ye, Naiyan Wang, Xiaolong Wang
 
-**Resources:** [📄 Paper](https://arxiv.org/abs/2303.12786.pdf) | [🌐 Project Page](https://jianglongye.com/featurenerf/) | [💻 Code (not yet)]()
+**Resources:** [📄 Paper](https://arxiv.org/pdf/2303.12786.pdf) | [🌐 Project Page](https://jianglongye.com/featurenerf/) | [💻 Code (not yet)]()
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -105,7 +105,7 @@ Recent works on generalizable NeRFs have shown promising results on novel view s
 
 **Authors**: Kunhao Liu, Fangneng Zhan, Jiahui Zhang, Muyu Xu, Yingchen Yu, Abdulmotaleb El Saddik, Christian Theobalt, Eric Xing, Shijian Lu
 
-**Resources:** [📄 Paper](https://arxiv.org/abs/2305.14093.pdf) | [💻 Code](https://github.com/Kunhao-Liu/3D-OVS) | [📦 Data](https://drive.google.com/drive/folders/1kdV14Gu5nZX6WOPbccG7t7obP_aXkOuC?usp=sharing)
+**Resources:** [📄 Paper](https://arxiv.org/pdf/2305.14093.pdf) | [💻 Code](https://github.com/Kunhao-Liu/3D-OVS) | [📦 Data](https://drive.google.com/drive/folders/1kdV14Gu5nZX6WOPbccG7t7obP_aXkOuC?usp=sharing)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -117,7 +117,7 @@ Open-vocabulary segmentation of 3D scenes is a fundamental function of human per
 
 **Authors**: Jiazhong Cen, Zanwei Zhou, Jiemin Fang, Chen Yang, Wei Shen, Lingxi Xie, Dongsheng Jiang, Xiaopeng Zhang, Qi Tian
 
-**Resources:**  [📄 Paper](https://arxiv.org/abs/2304.12308.pdf) | [🌐 Project Page](https://jumpat.github.io/SA3D/) | [💻 Code](https://github.com/Jumpat/SegmentAnythingin3D?tab=readme-ov-file)
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2304.12308.pdf) | [🌐 Project Page](https://jumpat.github.io/SA3D/) | [💻 Code](https://github.com/Jumpat/SegmentAnythingin3D?tab=readme-ov-file)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -144,7 +144,7 @@ GaussianEditor enhances precision and control in editing through our proposed Ga
 
 **Authors**: Jiemin Fang, Junjie Wang, Xiaopeng Zhang, Lingxi Xie, Qi Tian
 
-**Resources:**  [📄 Paper](https://arxiv.org/abs/2311.16037.pdf) | [🌐 Project Page](https://gaussianeditor.github.io/) | [💻 Code (not yet)]() | [🎥 Short Presentation](https://youtu.be/KWtALsigR3k?si=h6-A44brd5rm3_CM)
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2311.16037.pdf) | [🌐 Project Page](https://gaussianeditor.github.io/) | [💻 Code (not yet)]() | [🎥 Short Presentation](https://youtu.be/KWtALsigR3k?si=h6-A44brd5rm3_CM)
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -189,7 +189,6 @@ Open-vocabulary querying in 3D space is challenging but essential for scene unde
 </details>
 
 
-
 ### [arXiv2312] Segment Any 3D Gaussians
 
 **Authors**: Jiazhong Cen, Jiemin Fang, Chen Yang, Lingxi Xie, Xiaopeng Zhang, Wei Shen, Qi Tian
@@ -200,6 +199,19 @@ Open-vocabulary querying in 3D space is challenging but essential for scene unde
 <summary><b>Abstract</b></summary>
 Interactive 3D segmentation in radiance fields is an appealing task since its importance in 3D scene understanding and manipulation. However, existing methods face challenges in either achieving fine-grained, multi-granularity segmentation or contending with substantial computational overhead, inhibiting real-time interaction. In this paper, we introduce Segment Any 3D GAussians (SAGA), a novel 3D interactive segmentation approach that seamlessly blends a 2D segmentation foundation model with 3D Gaussian Splatting (3DGS), a recent breakthrough of radiance fields. SAGA efficiently embeds multi-granularity 2D segmentation results generated by the segmentation foundation model into 3D Gaussian point features through well-designed contrastive training. Evaluation on existing benchmarks demonstrates that SAGA can achieve competitive performance with state-of-the-art methods. Moreover, SAGA achieves multi-granularity segmentation and accommodates various prompts, including points, scribbles, and 2D masks. Notably, SAGA can finish the 3D segmentation within milliseconds, achieving nearly 1000× acceleration1 compared to previous SOTA.
 </details>
+
+
+### [arXiv2312] 4D-Editor: Interactive Object-level Editing in Dynamic Neural Radiance Fields via Semantic Distillation
+
+**Authors**: Dadong Jiang, Zhihui Ke, Xiaobo Zhou, Xidong Shi
+
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2310.16858.pdf) | [🌐 Project Page](https://patrickddj.github.io/4D-Editor/) | [💻 Code (not yet)]()
+
+<details span>
+<summary><b>Abstract</b></summary>
+This paper targets interactive object-level editing (e.g., deletion, recoloring, transformation, composition) in dynamic scenes. Recently, some methods aiming for flexible editing static scenes represented by neural radiance field (NeRF) have shown impressive synthesis quality, while similar capabilities in time-variant dynamic scenes remain limited. To solve this problem, we propose 4D-Editor, an interactive semantic-driven editing framework, allowing editing multiple objects in a dynamic NeRF with user strokes on a single frame. We propose an extension to the original dynamic NeRF by incorporating a hybrid semantic feature distillation to maintain spatial-temporal consistency after editing. In addition, we design Recursive Selection Refinement that significantly boosts object segmentation accuracy within a dynamic NeRF to aid the editing process. Moreover, we develop Multi-view Reprojection Inpainting to fill holes caused by incomplete scene capture after editing. Extensive experiments and editing examples on real-world demonstrate that 4D-Editor achieves photo-realistic editing on dynamic NeRFs.
+</details>
+
 
 
 ## Resources
