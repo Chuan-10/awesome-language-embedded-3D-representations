@@ -16,6 +16,12 @@ The README template is borrowed from [MrNeRF/awesome-3D-gaussian-splatting](http
 <summary><b>Update Log:</b></summary>
 <br>
 
+**April 7, 2024**: 
+   * 2 papers added: ConceptFusion and GSNeRF
+   * Codes released: LEGausssians
+   * Data released: LEGausssians, GARField
+
+
 **March 12, 2024**: 
    * 2 papers removed: GaussianEditor: Editing 3D Gaussians Delicately with Text Instructions, GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting 
    * 4 papers' status updated.
@@ -93,6 +99,19 @@ Humans describe the physical world using natural language to refer to specific 3
 </details>
 
 
+### [RSS23] ConceptFusion: Open-set Multimodal 3D Mapping
+
+**Authors**: Krishna Murthy Jatavallabhula, Alihusein Kuwajerwala, Qiao Gu, Mohd Omama, Tao Chen, Alaa Maalouf, Shuang Li, Ganesh Iyer, Soroush Saryazdi, Nikhil Keetha, Ayush Tewari, Joshua B. Tenenbaum, Celso Miguel de Melo, Madhava Krishna, Liam Paull, Florian Shkurti, Antonio Torralba
+
+**Resources:**   [📄 Paper](https://concept-fusion.github.io/assets/pdf/2023-ConceptFusion.pdf) | [🌐 Project Page](https://concept-fusion.github.io/) | [💻 Code](https://github.com/concept-fusion/concept-fusion) | [📦 Data (not yet)]() | [🎥 Short Presentation](https://www.youtube.com/watch?v=rkXgws8fiDs)
+
+<details span>
+<summary><b>Abstract</b></summary>
+Building 3D maps of the environment is central to robot navigation, planning, and interaction with objects in a scene. Most existing approaches that integrate semantic concepts with 3D maps largely remain confined to the closed-set setting: they can only reason about a finite set of concepts, pre-defined at training time. Further, these maps can only be queried using class labels, or in recent work, using text prompts.
+We address both these issues with ConceptFusion, a scene representation that is (1) fundamentally open-set, enabling reasoning beyond a closed set of concepts and (ii) inherently multimodal, enabling a diverse range of possible queries to the 3D map, from language, to images, to audio, to 3D geometry, all working in concert. ConceptFusion leverages the open-set capabilities of today's foundation models pre-trained on internet-scale data to reason about concepts across modalities such as natural language, images, and audio. We demonstrate that pixel-aligned open-set features can be fused into 3D maps via traditional SLAM and multi-view fusion approaches. This enables effective zero-shot spatial reasoning, not needing any additional training or finetuning, and retains long-tailed concepts better than supervised approaches, outperforming them by more than 40% margin on 3D IoU. We extensively evaluate ConceptFusion on a number of real-world datasets, simulated home environments, a real-world tabletop manipulation task, and an autonomous driving platform. We showcase new avenues for blending foundation models with 3D open-set multimodal mapping.
+</details>
+
+
 ### [ICCV23] FeatureNeRF: Learning Generalizable NeRFs by Distilling Foundation Models
 
 **Authors**: Jianglong Ye, Naiyan Wang, Xiaolong Wang
@@ -117,11 +136,12 @@ Recent works on generalizable NeRFs have shown promising results on novel view s
 </details>
 
 
-### [CVPR24] Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding 
+### [CVPR24] LEGaussians: Language Embedded 3D Gaussians for Open-Vocabulary Scene Understanding 
 
 **Authors**: Jin-Chuan Shi, Miao Wang, Hao-Bin Duan, Shao-Hua Guan
 
-**Resources:** [📄 Paper](https://arxiv.org/pdf/2311.18482.pdf) | [🌐 Project Page](https://buaavrcg.github.io/LEGaussians/) | [💻 Code (not yet)]()
+**Resources:** [📄 Paper](https://arxiv.org/pdf/2311.18482.pdf) | [🌐 Project Page](https://buaavrcg.github.io/LEGaussians/) | [💻 Code](https://github.com/buaavrcg/LEGaussians)  | [📦 Data](https://drive.google.com/drive/folders/1vJ3le9lIGq8zl3ls1OzkBQ-rXLiSSc22)
+
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -130,6 +150,7 @@ Open-vocabulary querying in 3D space is challenging but essential for scene unde
 
 
 ### [CVPR24] LangSplat: 3D Language Gaussian Splatting 
+
 **Authors**: Minghan Qin, Wanhua Li, Jiawei Zhou, Haoqian Wang, Hanspeter Pfister 
 
 **Resources:**  [📄 Paper](https://arxiv.org/pdf/2312.16084.pdf) | [🌐 Project Page](https://langsplat.github.io/) | [💻 Code](https://github.com/minghanqin/LangSplat) | [🎥 Short Presentation](https://www.youtube.com/watch?v=XMlyjsei-Es)
@@ -141,6 +162,7 @@ Human lives in a 3D world and commonly uses natural language to interact with a 
 
 
 ### [arXiv2401] FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding 
+
 **Authors**: Xingxing Zuo, Pouya Samangouei, Yunwen Zhou, Yan Di, Mingyang Li
 
 **Resources:**  [📄 Paper](https://arxiv.org/pdf/2401.01970.pdf)
@@ -152,14 +174,28 @@ Precisely perceiving the geometric and semantic properties of real-world 3D obje
 
 
 ### [CVPR24] GARField: Group Anything with Radiance Fields 
+
 **Authors**: Chung Min Kim, Mingxuan Wu, Justin Kerr, Ken Goldberg, Matthew Tancik, Angjoo Kanazawa
 
-**Resources:**  [📄 Paper](https://arxiv.org/pdf/2401.09419.pdf) | [🌐 Project Page](https://www.garfield.studio/) | [💻 Code](https://github.com/chungmin99/garfield) | [📦 Data (not yet)]()
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2401.09419.pdf) | [🌐 Project Page](https://www.garfield.studio/) | [💻 Code](https://github.com/chungmin99/garfield) | [📦 Data](https://drive.google.com/drive/folders/1LDvbFTQuaQxru5ELsfCjX7sTkg1WotX0)
 
 <details span>
 <summary><b>Abstract</b></summary>
 Grouping is inherently ambiguous due to the multiple levels of granularity in which one can decompose a scene -- should the wheels of an excavator be considered separate or part of the whole? We present Group Anything with Radiance Fields (GARField), an approach for decomposing 3D scenes into a hierarchy of semantically meaningful groups from posed image inputs. To do this we embrace group ambiguity through physical scale: by optimizing a scale-conditioned 3D affinity feature field, a point in the world can belong to different groups of different sizes. We optimize this field from a set of 2D masks provided by Segment Anything (SAM) in a way that respects coarse-to-fine hierarchy, using scale to consistently fuse conflicting masks from different viewpoints. From this field we can derive a hierarchy of possible groupings via automatic tree construction or user interaction. We evaluate GARField on a variety of in-the-wild scenes and find it effectively extracts groups at many levels: clusters of objects, objects, and various subparts. GARField inherently represents multi-view consistent groupings and produces higher fidelity groups than the input SAM masks. GARField's hierarchical grouping could have exciting downstream applications such as 3D asset extraction or dynamic scene understanding. See the project website at https://www.garfield.studio/
 </details>
+
+
+### [CVPR24] GSNeRF: Generalizable Semantic Neural Radiance Fields with Enhanced 3D Scene Understanding
+
+**Authors**: Zi-Ting Chou, Sheng-Yu Huang, I-Jieh Liu, Yu-Chiang Frank Wang
+
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2403.03608.pdf)
+
+<details span>
+<summary><b>Abstract</b></summary>
+Utilizing multi-view inputs to synthesize novel-view images, Neural Radiance Fields (NeRF) have emerged as a popular research topic in 3D vision. In this work, we introduce a Generalizable Semantic Neural Radiance Field (GSNeRF), which uniquely takes image semantics into the synthesis process so that both novel view images and the associated semantic maps can be produced for unseen scenes. Our GSNeRF is composed of two stages: Semantic Geo-Reasoning and Depth-Guided Visual rendering. The former is able to observe multi-view image inputs to extract semantic and geometry features from a scene. Guided by the resulting image geometry information, the latter performs both image and semantic rendering with improved performances. Our experiments not only confirm that GSNeRF performs favorably against prior works on both novel-view image and semantic segmentation synthesis but the effectiveness of our sampling strategy for visual rendering is further verified.
+</details>
+
 
 <br>
 
