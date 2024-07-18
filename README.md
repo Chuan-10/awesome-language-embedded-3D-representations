@@ -17,6 +17,9 @@ The README template is borrowed from [MrNeRF/awesome-3D-gaussian-splatting](http
 <summary><b>Update Log:</b></summary>
 <br>
 
+**July 18, 2024**: 
+   * 1 paper added: Click-Gaussian
+
 **July 15, 2024**: 
    * 1 paper added: SA4D
 
@@ -313,6 +316,18 @@ Understanding 3D scenes is a crucial challenge in computer vision research with 
 <details span>
 <summary><b>Abstract</b></summary>
 Modeling, understanding, and reconstructing the real world are crucial in XR/VR. Recently, 3D Gaussian Splatting (3D-GS) methods have shown remarkable success in modeling and understanding 3D scenes. Similarly, various 4D representations have demonstrated the ability to capture the dynamics of the 4D world. However, there is a dearth of research focusing on segmentation within 4D representations. In this paper, we propose Segment Any 4D Gaussians (SA4D), one of the first frameworks to segment anything in the 4D digital world based on 4D Gaussians. In SA4D, an efficient temporal identity feature field is introduced to handle Gaussian drifting, with the potential to learn precise identity features from noisy and sparse input. Additionally, a 4D segmentation refinement process is proposed to remove artifacts. Our SA4D achieves precise, high-quality segmentation within seconds in 4D Gaussians and shows the ability to remove, recolor, compose, and render high-quality anything masks. More demos are available at: this https URL.
+</details>
+
+
+### [ECCV24] Click-Gaussian: Interactive Segmentation to Any 3D Gaussians
+
+**Authors**: Seokhun Choi, Hyeonseop Song, Jaechul Kim, Taehyeong Kim, Hoseok Do
+
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2407.11793) | [🌐 Project Page](https://seokhunchoi.github.io/Click-Gaussian/)
+
+<details span>
+<summary><b>Abstract</b></summary>
+Interactive segmentation of 3D Gaussians opens a great opportunity for real-time manipulation of 3D scenes thanks to the real-time rendering capability of 3D Gaussian Splatting. However, the current methods suffer from time-consuming post-processing to deal with noisy segmentation output. Also, they struggle to provide detailed segmentation, which is important for fine-grained manipulation of 3D scenes. In this study, we propose Click-Gaussian, which learns distinguishable feature fields of two-level granularity, facilitating segmentation without time-consuming post-processing. We delve into challenges stemming from inconsistently learned feature fields resulting from 2D segmentation obtained independently from a 3D scene. 3D segmentation accuracy deteriorates when 2D segmentation results across the views, primary cues for 3D segmentation, are in conflict. To overcome these issues, we propose Global Feature-guided Learning (GFL). GFL constructs the clusters of global feature candidates from noisy 2D segments across the views, which smooths out noises when training the features of 3D Gaussians. Our method runs in 10 ms per click, 15 to 130 times as fast as the previous methods, while also significantly improving segmentation accuracy. Our project page is available at this https URL
 </details>
 
 <br>
