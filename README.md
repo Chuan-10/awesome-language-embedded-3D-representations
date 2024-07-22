@@ -1,4 +1,4 @@
-# Awesome Language Embedded 3D Representations
+# Awesome Language Embedded 3D Representations [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of papers and open-source resources focused on language embedded 3D neural representations. This project is under construction. If you have any suggestions or additions, please feel free to contribute. 
 
