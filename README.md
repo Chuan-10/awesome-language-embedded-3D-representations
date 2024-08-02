@@ -17,6 +17,9 @@ The README template is borrowed from [MrNeRF/awesome-3D-gaussian-splatting](http
 <summary><b>Update Log:</b></summary>
 <br>
 
+**August 2, 2024**: 
+   * 1 paper added: Semantic Gaussians
+
 **July 18, 2024**: 
    * 1 paper added: Click-Gaussian
 
@@ -216,6 +219,18 @@ Grouping is inherently ambiguous due to the multiple levels of granularity in wh
 <details span>
 <summary><b>Abstract</b></summary>
 Utilizing multi-view inputs to synthesize novel-view images, Neural Radiance Fields (NeRF) have emerged as a popular research topic in 3D vision. In this work, we introduce a Generalizable Semantic Neural Radiance Field (GSNeRF), which uniquely takes image semantics into the synthesis process so that both novel view images and the associated semantic maps can be produced for unseen scenes. Our GSNeRF is composed of two stages: Semantic Geo-Reasoning and Depth-Guided Visual rendering. The former is able to observe multi-view image inputs to extract semantic and geometry features from a scene. Guided by the resulting image geometry information, the latter performs both image and semantic rendering with improved performances. Our experiments not only confirm that GSNeRF performs favorably against prior works on both novel-view image and semantic segmentation synthesis but the effectiveness of our sampling strategy for visual rendering is further verified.
+</details>
+
+
+### [arXiv2403] Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting
+
+**Authors**: Jun Guo, Xiaojian Ma, Yue Fan, Huaping Liu, Qing Li
+
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2403.15624) | [🌐 Project Page](https://semantic-gaussians.github.io) | [💻 Code](https://github.com/sharinka0715/semantic-gaussians)
+
+<details span>
+<summary><b>Abstract</b></summary>
+Open-vocabulary 3D scene understanding presents a significant challenge in computer vision, withwide-ranging applications in embodied agents and augmented reality systems. Previous approaches haveadopted Neural Radiance Fields (NeRFs) to analyze 3D scenes. In this paper, we introduce SemanticGaussians, a novel open-vocabulary scene understanding approach based on 3D Gaussian Splatting. Our keyidea is distilling pre-trained 2D semantics into 3D Gaussians. We design a versatile projection approachthat maps various 2Dsemantic features from pre-trained image encoders into a novel semantic component of 3D Gaussians, withoutthe additional training required by NeRFs. We further build a 3D semantic network that directly predictsthe semantic component from raw 3D Gaussians for fast inference. We explore several applications ofSemantic Gaussians: semantic segmentation on ScanNet-20, where our approach attains a 4.2% mIoU and 4.0%mAcc improvement over prior open-vocabulary scene understanding counterparts; object part segmentation,sceneediting, and spatial-temporal segmentation with better qualitative results over 2D and 3D baselines,highlighting its versatility and effectiveness on supporting diverse downstream tasks.
 </details>
 
 
