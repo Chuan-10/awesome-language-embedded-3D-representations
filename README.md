@@ -17,6 +17,9 @@ The README template is borrowed from [MrNeRF/awesome-3D-gaussian-splatting](http
 <summary><b>Update Log:</b></summary>
 <br>
 
+**August 3, 2024**: 
+   * 1 paper added: NIS-SLAM
+
 **August 2, 2024**: 
    * 1 paper added: Semantic Gaussians
 
@@ -410,6 +413,17 @@ Editing objects within a scene is a critical functionality required across a bro
 <details span>
 <summary><b>Abstract</b></summary>
 We propose SNI-SLAM, a semantic SLAM system utilizing neural implicit representation, that simultaneously performs accurate semantic mapping, high-quality surface reconstruction, and robust camera tracking. In this system, we introduce hierarchical semantic representation to allow multi-level semantic comprehension for top-down structured semantic mapping of the scene. In addition, to fully utilize the correlation between multiple attributes of the environment, we integrate appearance, geometry and semantic features through cross-attention for feature collaboration. This strategy enables a more multifaceted understanding of the environment, thereby allowing SNI-SLAM to remain robust even when single attribute is defective. Then, we design an internal fusion-based decoder to obtain semantic, RGB, Truncated Signed Distance Field (TSDF) values from multi-level features for accurate decoding. Furthermore, we propose a feature loss to update the scene representation at the feature level. Compared with low-level losses such as RGB loss and depth loss, our feature loss is capable of guiding the network optimization on a higher-level. Our SNI-SLAM method demonstrates superior performance over all recent NeRF-based SLAM methods in terms of mapping and tracking accuracy on Replica and ScanNet datasets, while also showing excellent capabilities in accurate semantic segmentation and real-time semantic mapping.
+</details>
+
+### [TVCG24] NIS-SLAM: Neural Implicit Semantic RGB-D SLAM for 3D Consistent Scene Understanding
+
+**Authors**: Hongjia Zhai, Gan Huang, Qirui Hu, Guanglin Li, Hujun Bao, Guofeng Zhang
+
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2407.20853) | [🌐 Project Page](https://zju3dv.github.io/nis_slam/) | [💻 Code (not yet)]()
+
+<details span>
+<summary><b>Abstract</b></summary>
+In recent years, the paradigm of neural implicit representations has gained substantial attention in the field of Simultaneous Localization and Mapping (SLAM). However, a notable gap exists in the existing approaches when it comes to scene understanding. In this paper, we introduce NIS-SLAM, an efficient neural implicit semantic RGB-D SLAM system, that leverages a pre-trained 2D segmentation network to learn consistent semantic representations. Specifically, for high-fidelity surface reconstruction and spatial consistent scene understanding, we combine high-frequency multi-resolution tetrahedron-based features and low-frequency positional encoding as the implicit scene representations. Besides, to address the inconsistency of 2D segmentation results from multiple views, we propose a fusion strategy that integrates the semantic probabilities from previous non-keyframes into keyframes to achieve consistent semantic learning. Furthermore, we implement a confidence-based pixel sampling and progressive optimization weight function for robust camera tracking. Extensive experimental results on various datasets show the better or more competitive performance of our system when compared to other existing neural dense implicit RGB-D SLAM approaches. Finally, we also show that our approach can be used in augmented reality applications. Project page: https://zju3dv.github.io/nis_slam.
 </details>
 
 <br>
