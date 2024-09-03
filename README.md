@@ -189,11 +189,11 @@ Human lives in a 3D world and commonly uses natural language to interact with a 
 </details>
 
 
-### [arXiv2401] FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding 
+### [IJCV24] FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding 
 
 **Authors**: Xingxing Zuo, Pouya Samangouei, Yunwen Zhou, Yan Di, Mingyang Li
 
-**Resources:**  [📄 Paper](https://arxiv.org/pdf/2401.01970.pdf)
+**Resources:**  [📄 Paper](https://arxiv.org/pdf/2401.01970.pdf) | [🌐 Project Page](https://xingxingzuo.github.io/fmgs/)
 
 <details span>
 <summary><b>Abstract</b></summary>
